@@ -1,0 +1,23 @@
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_setup.py:_flush():81] Current SDK version is 0.22.3
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_setup.py:_flush():81] Configure stats pid to 6840
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_setup.py:_flush():81] Loading settings from C:\Users\wolff\.config\wandb\settings
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_setup.py:_flush():81] Loading settings from E:\Python_projects\Project-AI6126-Advanced-Computer-Vision\UDA\wandb\settings
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-04-02 15:38:31,154 INFO    MainThread:6840 [wandb_init.py:setup_run_log_directory():706] Logging user logs to E:\Python_projects\Project-AI6126-Advanced-Computer-Vision\UDA\wandb\run-20260402_153831-54uyjj8y\logs\debug.log
+2026-04-02 15:38:31,155 INFO    MainThread:6840 [wandb_init.py:setup_run_log_directory():707] Logging internal logs to E:\Python_projects\Project-AI6126-Advanced-Computer-Vision\UDA\wandb\run-20260402_153831-54uyjj8y\logs\debug-internal.log
+2026-04-02 15:38:31,155 INFO    MainThread:6840 [wandb_init.py:init():833] calling init triggers
+2026-04-02 15:38:31,155 INFO    MainThread:6840 [wandb_init.py:init():838] wandb.init called with sweep_config: {}
+config: {'dataroot': './datasets/MINST2USPS', 'name': 'MINST2USPS', 'checkpoints_dir': './checkpoints', 'model': 'cycle_gan', 'input_nc': 3, 'output_nc': 3, 'ngf': 64, 'ndf': 64, 'netD': 'basic', 'netG': 'resnet_9blocks', 'n_layers_D': 3, 'norm': 'instance', 'init_type': 'normal', 'init_gain': 0.02, 'no_dropout': True, 'dataset_mode': 'unaligned', 'direction': 'AtoB', 'serial_batches': False, 'num_threads': 4, 'batch_size': 4, 'load_size': 130, 'crop_size': 128, 'max_dataset_size': inf, 'preprocess': 'resize_and_crop', 'no_flip': False, 'display_winsize': 128, 'epoch': 'latest', 'load_iter': 0, 'verbose': False, 'suffix': '', 'use_wandb': True, 'wandb_project_name': 'photo2sketch_test', 'wandb_key': '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', 'display_freq': 1000, 'update_html_freq': 1000, 'print_freq': 200, 'no_html': False, 'save_latest_freq': 1000, 'save_epoch_freq': 2, 'save_by_iter': False, 'continue_train': False, 'epoch_count': 1, 'phase': 'train', 'n_epochs': 200, 'n_epochs_decay': 0, 'beta1': 0.5, 'lr': 0.0005, 'gan_mode': 'lsgan', 'pool_size': 50, 'lr_policy': 'cosine', 'lr_decay_iters': 100, 'lambda_A': 10.0, 'lambda_B': 10.0, 'lambda_identity': 0.5, 'isTrain': True, 'device': device(type='cuda', index=0), '_wandb': {}}
+2026-04-02 15:38:31,155 INFO    MainThread:6840 [wandb_init.py:init():881] starting backend
+2026-04-02 15:38:31,375 INFO    MainThread:6840 [wandb_init.py:init():884] sending inform_init request
+2026-04-02 15:38:31,393 INFO    MainThread:6840 [wandb_init.py:init():892] backend started and connected
+2026-04-02 15:38:31,394 INFO    MainThread:6840 [wandb_init.py:init():962] updated telemetry
+2026-04-02 15:38:31,421 INFO    MainThread:6840 [wandb_init.py:init():986] communicating run to backend with 90.0 second timeout
+2026-04-02 15:38:32,293 INFO    MainThread:6840 [wandb_init.py:init():1033] starting run threads in backend
+2026-04-02 15:38:32,573 INFO    MainThread:6840 [wandb_run.py:_console_start():2506] atexit reg
+2026-04-02 15:38:32,573 INFO    MainThread:6840 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2026-04-02 15:38:32,573 INFO    MainThread:6840 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2026-04-02 15:38:32,573 INFO    MainThread:6840 [wandb_run.py:_redirect():2446] Redirects installed.
+2026-04-02 15:38:32,575 INFO    MainThread:6840 [wandb_init.py:init():1073] run started, returning control to user process
+2026-04-02 15:41:19,999 INFO    wandb-AsyncioManager-main:6840 [service_client.py:_forward_responses():80] Reached EOF.
+2026-04-02 15:41:20,000 INFO    wandb-AsyncioManager-main:6840 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

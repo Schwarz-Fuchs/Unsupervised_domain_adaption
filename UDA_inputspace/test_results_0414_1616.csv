@@ -1,0 +1,19 @@
+﻿Task,Model_Path,Accuracy,Timestamp
+Office-31 (Webcam),checkpoints/Resnet_REAL_amazon/resnet18_amazon.pth,48.43%,2026-04-14 16:07
+Office-31 (Webcam),checkpoints/Resnet_amazon2webcam_cyclegan/resnet18_amazon2webcam_cyclegan.pth,53.21%,2026-04-14 16:08
+Office-31 (Webcam),checkpoints/Resnet_amazon2webcam_fgcyclegan/resnet18_amazon2webcam_fgcyclegan.pth,56.98%,2026-04-14 16:08
+Office-31 (Webcam),checkpoints/Resnet_amazon2webcam_semcyclegan/resnet18_amazon2webcam_semcyclegan.pth,46.54%,2026-04-14 16:08
+Office-31 (Webcam),checkpoints/Resnet_amazon2webcam_cycada/resnet18_adda_optimized.pth,53.58%,2026-04-14 16:09
+Office-31 (Webcam),checkpoints/Resnet_amazon2webcam_cycada/resnet18_fg_adda_optimized.pth,59.50%,2026-04-14 16:09
+Office-Home (Real World),checkpoints/Resnet_REAL_art/resnet18_art.pth,48.82%,2026-04-14 16:10
+Office-Home (Real World),checkpoints/Resnet_art2realworld_cyclegan/resnet18_art2realworld_cyclegan.pth,46.91%,2026-04-14 16:10
+Office-Home (Real World),checkpoints/Resnet_art2realworld_fgcyclegan/resnet18_art2realworld_fgcyclegan.pth,46.57%,2026-04-14 16:11
+Office-Home (Real World),checkpoints/Resnet_art2realworld_semcyclegan/resnet18_art2realworld_semcyclegan.pth,45.83%,2026-04-14 16:12
+Office-Home (Real World),checkpoints/Resnet_art2realworld_cycada/resnet18_adda_optimized.pth,45.31%,2026-04-14 16:13
+Office-Home (Real World),checkpoints/Resnet_art2realworld_cycada/resnet18_fg_adda_optimized.pth,45.93%,2026-04-14 16:13
+PACS (Sketch),checkpoints/Resnet_REAL_photo/resnet18_photo.pth,25.94%,2026-04-14 16:14
+PACS (Sketch),checkpoints/Resnet_photo2sketch_cyclegan/resnet18_photo2sketch_cyclegan.pth,53.93%,2026-04-14 16:14
+PACS (Sketch),checkpoints/Resnet_photo2sketch_fgcyclegan/resnet18_photo2sketch_fgcyclegan.pth,55.36%,2026-04-14 16:15
+PACS (Sketch),checkpoints/Resnet_photo2sketch_semcyclegan/resnet18_photo2sketch_semcyclegan.pth,23.87%,2026-04-14 16:15
+PACS (Sketch),checkpoints/Resnet_photo2sketch_cycada/resnet18_adda_optimized.pth,37.80%,2026-04-14 16:16
+PACS (Sketch),checkpoints/Resnet_photo2sketch_cycada/resnet18_fg_adda_optimized.pth,44.34%,2026-04-14 16:16
